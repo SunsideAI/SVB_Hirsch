@@ -1,7 +1,7 @@
 export async function handler(event) {
   const payload = JSON.parse(event.body);
 
-  const response = await fetch("https://hooks.zapier.com/hooks/catch/21938164/2xz2o65/", {
+  const response = await fetch("https://hooks.zapier.com/hooks/catch/21938164/2jany7q/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload)
